@@ -151,7 +151,7 @@ body{
     color: hsl(228, 45%, 44%);
 }
 
-@media (width <= 375px) {
+@media (min-width: 375px) {
     
     body{
         background-image: url(../images/bg-intro-mobile.png);
