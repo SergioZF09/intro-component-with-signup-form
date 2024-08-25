@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+<body>
+
+  <main class="container">
+    
+    <section class="container__section_1">
+      <h1 class="container__section__1__title">Learn to code by watching others</h1>
+
+      <p class="contanier__section__1__paragraph">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+    </section>
+
+    <section class="container__section__2">
+      <p class="container__section__2__info"><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
+
+      <div class="container__section__2__form">
+        <form action="#">
+
+          <input type="text" class="container__section__2__form__inputs" name="firstName" id="firstName" placeholder="First Name">
+          <div class="error-inputs" id="errorFirstName"></div>
+
+          <input type="text" class="container__section__2__form__inputs" name="lastName" id="lastName" placeholder="Last Name">
+          <div class="error-inputs" id="errorLastName"></div>
+
+          <input type="email" class="container__section__2__form__inputs"  name="email" id="email" placeholder="Email Address">
+          <div class="error-inputs" id="errorEmail"></div>
+
+          <input type="password" class="container__section__2__form__inputs" name="password" id="password" placeholder="Password">
+          <div class="error-inputs" id="errorPassword"></div>
+          
+          <button type="button" class="container__section__2__form__button" id="btnClaim" onclick="SendInfo();">Claim your free trial </button>
+
+        </form>
+
+        <p class="container__section__2__form__terms">By clicking the button, you are agreeing to our <span class="container__section__2__span">Terms and Services</span></p>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/SergioZF09">Sergio Zuñiga Fraga</a>.
+    </p>
+  </footer>
+
+  <script src="./js/script.js"></script>
+  
+</body>
+</html>
